@@ -1,0 +1,6 @@
+	if [[ $(( i % 2 )) != 0 ]]
+then
+	let sum=sum+i
+fi
+done
+	echo $sum
